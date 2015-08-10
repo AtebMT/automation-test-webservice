@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestGreetingService" tests="3" skipped="0" failures="1" errors="0" timestamp="2015-07-27T13:37:25" hostname="DEELNQA0016" time="0.496">
+  <properties/>
+  <testcase name="Calling web service returns greeting" classname="TestGreetingService" time="0.404"/>
+  <testcase name="Calling web service returns only greeting when no name passed" classname="TestGreetingService" time="0.007"/>
+  <testcase name="Calling web service returns only 404 for invalid route" classname="TestGreetingService" time="0.085">
+    <failure message="Condition not satisfied:&#10;&#10;responseStatus == 403&#10;|              |&#10;404            false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+responseStatus == 403
+|              |
+404            false
+
+	at TestGreetingService.Calling web service returns only 404 for invalid route(TestGreetingService.groovy:45)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
