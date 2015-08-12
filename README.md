@@ -16,4 +16,4 @@ You can view the test reports by copying the files out of the container (and use
 
 > `docker cp <containerId>:/tests/build/reports/tests /host/path/target`
 
-You could always mount a volume and copy the files out of the container as an alternative, maybe ?
+You could always mount a volume and copy the files out of the container as an alternative.
