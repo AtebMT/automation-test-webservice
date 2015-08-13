@@ -8,7 +8,7 @@ import spock.lang.Specification
 class TestGreetingService extends Specification {
     def "Calling web service returns greeting"() {
         when: "I call the greeting web service with the route 'mike'"
-            def endpoint = new RESTClient("http://GreetingEndpoint:5000")
+            def endpoint = new RESTClient("http://GreetingEndpoint:3000")
             def response = endpoint.get(path: '/hello/mike')
 
         then: "I would expect the service to return a greeting as a JSON object"
@@ -42,6 +42,6 @@ class TestGreetingService extends Specification {
             }
 
         then: "I would expect the service to return a 404"
-            responseStatus == 403
+            responseStatus == 404
     }
 }
