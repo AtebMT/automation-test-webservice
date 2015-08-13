@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestGrettingService" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-07-27T13:33:05" hostname="DEELNQA0016" time="0.017">
-  <properties/>
-  <testcase name="Calling web service returns greeting" classname="TestGrettingService" time="0.006"/>
-  <testcase name="Calling web service returns only greeting when no name passed" classname="TestGrettingService" time="0.004"/>
-  <testcase name="Calling web service returns only 404 for invalid route" classname="TestGrettingService" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
