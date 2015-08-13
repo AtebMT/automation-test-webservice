@@ -18,7 +18,7 @@ class TestGreetingService extends Specification {
 
     def "Calling web service returns only greeting when no name passed"() {
         when: "When I call the greeting web service with no route "
-            def endpoint = new RESTClient("http:/GreetingEndpoint:3000")
+            def endpoint = new RESTClient("http://GreetingEndpoint:3000")
             def response = endpoint.get(path: '/hello')
 
         then: "I would expect the service to return a greeting as a JSON object"
